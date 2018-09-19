@@ -11,7 +11,8 @@ public class JavaEuler1{
 				sum+=i;
 			}
 		}
-		return addComas(sum);
+		Commas a = new Commas();
+		return a.addComas(sum);
 	}
 	public static String addComas(int num){
 		String toReturn = num+"";
