@@ -2,6 +2,7 @@ public class JavaEuler2{
 	public static void main(String[]args){
 		System.out.println(evenFibonacciSum(4000000));
 	}
+	//takes in a max number and returns a string with commas of the even fib numbers
 	public static String evenFibonacciSum (int max){
 		if (max<2){
 			return 0+"";
